@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UI-CHALLENGE-2</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <form id="text-input" action="/textMe" method = "POST" required="required" />
+        <textarea name="textMe">placeholder text</textarea>
+    </form>
+    <form id="select-box" action="/boxMe" method="POST">
+        <p>Please select an option</p>
+        <select name="box">   
+            <option value="1">option 1</option>
+            <option value="2">option 2</option>
+            <option value="3">option 3</option>
+            <option value="4">option 4</option>
+            <option value="5">option 5</option>
+            <option value="6">option 6</option>
+        </select>
+    </form>
+    <form id="radio-button" action="/mouseOp" method = "post">
+        <input type="radio" name="mouseOp" value="on" id="on" checked="checked" />
+        <label for="on"></label>
+        <input type="radio" name="mouseOp" value="off" id="off" />
+        <label for="off"></label><br>
+        <input type="checkbox" onclick="document.getElementById('player').muted=!document.getElementById('player').muted"> </input>
+      </form>
+    <form id="submit-button" action="/submitMe" method="POST">
+        <input type="submit" value="submit">
+    </form>
+    <script type="application/javascript" src="app.js"></script>
+  </body>
+</html>

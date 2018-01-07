@@ -1,0 +1,63 @@
+a.checkbox, a.radio {
+    background-image: url('../sprites/form-elements-sprite.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+
+  a#checkbox {
+	background-position: -158px -239px;
+	width: 161px;
+	height: 160px;
+  }
+
+  a#checkbox:active {
+	background-position: -381px -239px;
+	width: 161px;
+	height: 160px;
+  }
+
+  a#radio {
+    background-position: -582px -242px;
+	width: 167px;
+	height: 166px;
+  }
+
+  a#radio:active {
+    background-position: -812px -242px;
+	width: 168px;
+	height: 166px;
+  }
+
+  /* .upArrow {
+    background-position: -1035px -280px;
+	width: 77px;
+	height: 77px;
+  }
+
+  .downArrow {
+    background-position: -1143px -280px;
+	width: 76px;
+	height: 77px;
+  } */
+
+  select.select-box {
+    margin: 0px;
+    margin-top: 12px;
+    height: 48px;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    padding: 9px;
+    font-family: tescoregular;
+    font-size: 16px;
+    color: #666666;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('../sprites/form-elements-sprite.png');
+    background-position: -1143px -280px;
+	width: 76px;
+	height: 77px;
+  }

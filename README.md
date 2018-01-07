@@ -32,7 +32,7 @@ This exercise is to give you some hands-on experience working with sprites in a 
 
 **Stretch goal**
 
-The instructions on the comp page say to do the styling with JavaScript for certail elements; it is recommended that you work out the basics of the styling in CSS, ACP it, then refactor to having JS do the styling. Why do the styling with JS? Well, that's the challenge!
+The instructions on the comp page say to do the styling with JavaScript for certail (certain?) elements; it is recommended that you work out the basics of the styling in CSS, ACP it, then refactor to having JS do the styling. Why do the styling with JS? Well, that's the challenge!
 
 ---
 
