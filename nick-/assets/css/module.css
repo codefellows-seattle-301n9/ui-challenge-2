@@ -1,0 +1,35 @@
+#buttons-label,
+#radio-label,
+#checkbox-label {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#buttons-label,
+#radio-label {
+    margin-top: 40px;
+}
+
+#button1 {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: beige;
+    color: darkgrey;
+    width: 140px;
+    height: 52px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#button2 {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: darkgrey;
+    color: beige;
+    width: 140px;
+    height: 52px;
+    cursor: pointer;
+}
